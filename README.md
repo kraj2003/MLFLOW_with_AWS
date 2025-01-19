@@ -36,7 +36,7 @@ aws configure
 
 
 #Finally 
-mlflow server -h 0.0.0.0 --default-artifact-root s3://mlflowtracking1
+mlflow server -h 0.0.0.0 --default-artifact-root s3://mlflow-tracking--dvc-dagshub
 
 #open Public IPv4 DNS to the port 5000
 
